@@ -70,6 +70,8 @@ Obsidian Timeline Plugin 是一个为 [Obsidian](https://obsidian.md/) 设计的
 
 ![](https://note-1306092950.cos.ap-guangzhou.myqcloud.com/note/20260202160652748.png)
 
+![](https://note-1306092950.cos.ap-guangzhou.myqcloud.com/note/20260202161617948.png)
+
 ## 🚀 安装说明
 
 ### 从源码安装（开发版）
