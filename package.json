@@ -1,0 +1,47 @@
+{
+  "name": "obsidian-timeline",
+  "version": "0.1.0",
+  "description": "A multi-track timeline visualization plugin for Obsidian",
+  "main": "main.js",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "tsc && vite build",
+    "deploy": "tsc && vite build && node copy-to-vault.js \"/Users/bazinga/Documents/Obsidian Vault/notes\"",
+    "copy": "node copy-to-vault.js \"/Users/bazinga/Documents/Obsidian Vault/notes\"",
+    "test": "vitest",
+    "test:ui": "vitest --ui",
+    "lint": "eslint src --ext .ts,.tsx",
+    "format": "prettier --write \"src/**/*.ts\""
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "timeline",
+    "visualization"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "d3": "^7.9.0",
+    "obsidian": "^1.5.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/d3": "^7.4.3",
+    "@types/node": "^20.11.0",
+    "@types/react": "^18.3.27",
+    "@types/react-dom": "^18.3.7",
+    "@typescript-eslint/eslint-plugin": "^6.19.0",
+    "@typescript-eslint/parser": "^6.19.0",
+    "@vitejs/plugin-react": "^4.7.0",
+    "eslint": "^8.56.0",
+    "html2canvas": "^1.4.1",
+    "jsdom": "^24.0.0",
+    "prettier": "^3.2.4",
+    "react-window": "^2.2.6",
+    "typescript": "^5.3.3",
+    "vite": "^5.0.12",
+    "vitest": "^1.2.1"
+  }
+}

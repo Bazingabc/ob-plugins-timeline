@@ -1,0 +1,10 @@
+{
+	"id": "obsidian-timeline",
+	"name": "Timeline",
+	"version": "0.1.0",
+	"minAppVersion": "1.5.0",
+	"description": "A multi-track timeline visualization plugin for social science learning and historical research.",
+	"author": "Your Name",
+	"authorUrl": "https://github.com/yourusername/obsidian-timeline",
+	"isDesktopOnly": false
+}
